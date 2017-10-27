@@ -1,0 +1,185 @@
+
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+
+.navbar {
+  z-index: 9;
+  background: rgba(0, 0, 0, 0.5) !important;
+  color: White; 
+  cursor: default;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7);
+}
+
+#brand{
+  font-family: 'Kaushan Script' !important;
+  cursor: pointer;
+  letter-spacing: .7px;
+  line-height: 1.2;
+}
+
+#background{
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -11;
+  background-color: black;
+}
+
+#backgroundImage {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url("images/background1.jpg") no-repeat center center;
+  min-width: 600px;
+}
+
+footer{
+  font-size: 1em !important;
+  width: 100%;
+  padding: 10px;
+  bottom: 0;
+  position: fixed;
+  color: white;
+  text-align: right;
+  background-color: black;
+  opacity: 0.5;
+  cursor: default;
+}
+
+.footerTextLinks{
+  font-weight: 500px;
+  color: GhostWhite !important; 
+}
+
+.contactIcons{
+  width: 25px;
+  height: 25px;
+  border-radius: 10%;
+  margin: 10px;
+}
+
+.title, .subtitle{
+  font-family: 'Sansita', sans-serif;
+  text-align: center;  
+  margin-top: 0;
+  margin-bottom: 20px;
+  cursor: default;
+  letter-spacing: .5px;
+  line-height: 1.2;
+}
+
+#animatedText:after{
+  display: inline-block;
+  height: 2vw;
+  width: 3px;
+  background: white;
+  content: '';
+  position: relative;
+  top: 5px;
+  -webkit-animation: blink .8s infinite;
+  animation: blink .8s infinite;
+}
+@-webkit-keyframes blink{
+  from{ opacity: 0;}
+  to{opacity: 1}
+}
+
+
+/***   MODAL SCREENS   ***/
+#biographySection, #bestMoviesSection, #quizSection{
+  display: none;
+  text-align: justify;
+  cursor: default;
+}
+
+.container{
+  border-radius: 2%;
+  padding: 1.5em 2em;
+  margin: 5% auto;
+  background: rgb(255, 255, 255);
+  box-shadow: .5em .5em .5em .5em rgba(0, 0, 0, .4);
+  width: 75%;
+  min-width: 300px;
+  max-width: 600px;
+  min-height: 200px;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.close{
+  position: absolute; 
+  top: 5px; 
+  right: 5px;
+  color: Black;
+  text-align: center;
+}
+
+p{
+text-align: justify;
+}
+h3{
+  margin-top: 0;
+}
+
+#quizBody{
+  font-size: 3vw !important;
+  color: DarkSlateGray !important;
+}
+#quizBody:after{
+  display: inline-block;
+  height: 3vw;
+  width: 2px;
+  background: DarkSlateGray;
+  content: '';
+  position: relative;
+  top: 7px;
+  -webkit-animation: blink .8s infinite;
+  animation: blink .8s infinite;
+  }
+
+
+.sliderContainer{
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+#slider {
+  display: flex;
+  width: 400%;
+}
+
+.slider__section {width: 100%;}
+
+.nextWraper{
+  width: 100%;
+  text-align: center;
+}
+
+#next{
+  font-weight: bold;
+  background-color: white;
+  box-shadow: 2px 2px 6px #999999;
+  -moz-box-shadow: 2px 2px 6px #999999;
+  -webkit-box-shadow: 2px 2px 6px #999999;
+  letter-spacing: .7px;
+  line-height: 1.2;
+}
+
+#next:hover {
+  background: Lavender;
+  color: Black !important;
+  border: 1px solid black;
+}

@@ -1,0 +1,175 @@
+<!--
+*Nico Diz
+*https://github.com/DizNicolasAmor
+
+You can see this project here: 
+- https://diznicolasamor.github.io/LynchTribute/
+
+Be free to use it and change it. 
+-->
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <title>LynchTribute</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+    <meta name="viewport" content="height-device-height, initial-scale=1.0, user-scalable=no"/>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!--my css file-->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <div id="background">
+      <div id="backgroundImage"></div>
+	</div>
+
+    <nav id="nav-bar" class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle hvr-bounce-to-bottom collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" id="brand">Tribute to David Lynch</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" id="biography">Biography</a></li>
+            <li><a href="#" id="bestMovies">Best Movies</a></li>
+            <li><a href="#" id="quiz">Quiz</a></li>
+            <li><a href="#" id="moreInfo">More Info</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="biographySection">
+      <div class="container">
+        <h1 class="subtitle" id="biographyTitle">BIOGRAPHY</h1>
+        <p id="biographyBody">
+        David Lynch (Montana, 1946) is a director and screenwriter known for dark, surrealistic offbeat films. 
+        <br />In 1977, his first feature, <i>Eraserhead</i>, made its debut, going on to become a cult classic. He next directed <i>The Elephant Man</i>, for which he received two Academy Award nominations among a host of others for the film. Lynch has also directed <i>Blue Velvet</i> and created the acclaimed television series <i>Twin Peaks</i>. 
+        <br />A vocal proponent of transcendental meditation, Lynch has added to his film ouevre with works like <i>Lost Highway</i> and <i>Mulholland Drive</i>.
+        <div class="close">x</div>
+      </div>
+    </section>
+
+    <section id="bestMoviesSection">
+      <div class="container">
+        <h1 class="subtitle" id="bestMoviesTitle">BEST MOVIES</h1>
+
+        <div id="bestMoviesBody">
+        <div class="sliderContainer">
+          <div id="slider">
+            <div class="slider__section">
+
+              <div class="col-md-6">
+                <img src="images/eraserhead.jpg" alt="Eraserhead" width="200px" height="250px">
+              </div>
+              <div class="col-md-6">
+                <h3>Eraserhead</h3>
+                <p>Shot in black-and-white, Eraserhead is Lynch's first feature-length film, coming after several short works. It tells the story of Henry Spencer (Nance), who is left to care for his grossly deformed child in a desolate industrial landscape. Throughout the film, Spencer experiences dreams or hallucinations, featuring his child and the Lady in the Radiator.
+                </p>
+                <a href="https://www.youtube.com/watch?v=oK-2_OsBe0s" target="_blank">View trailer.</a>
+              </div>
+            </div>
+
+            <div class="slider__section">
+
+              <div class="col-md-6">
+                <img src="images/twin-peaks.jpg" alt="Twin Peaks" width="200px" height="250px">
+              </div>
+              <div class="col-md-6">
+                <h3>Twin Peaks</h3>
+                <p>It is a prequel to the television series Twin Peaks (1990–1991). The film revolves around the investigation into the murder of Teresa Banks (Pamela Gidley) and the last seven days in the life of Laura Palmer (Sheryl Lee), a popular high school student in the fictional Washington town of Twin Peaks.
+                </p>
+                <a href="https://www.youtube.com/watch?v=rOW9hkPLeAY" target="_blank">View trailer.</a>
+              </div>
+            </div>
+
+            <div class="slider__section">
+
+              <div class="col-md-6">
+                <img src="images/mulholland-drive.jpg" alt="Mulholland Drive" width="200px" height="250px">
+              </div>
+              <div class="col-md-6">
+                <h3>Mulholland Drive</h3>
+                <p>It tells the story of an aspiring actress named Betty Elms (Watts), newly arrived in Los Angeles, who meets and befriends an amnesiac woman (Harring) hiding in an apartment which belongs to Betty's aunt. The story includes several other seemingly unrelated vignettes that eventually interlock, as well as some surreal and darkly comic scenes and images that relate to the cryptic narrative. 
+                </p>
+                <a href="https://www.youtube.com/watch?v=jbZJ487oJlY" target="_blank">View trailer.</a>
+              </div>
+            </div>
+
+            <div class="slider__section">
+
+              <div class="col-md-6">
+                <img src="images/lost-highway.jpg" alt="Lost Highway" width="200px" height="250px">
+              </div>
+              <div class="col-md-6">
+                <h3>Lost Highway</h3>
+                <p>It stars Bill Pullman as a man convicted of murdering his wife (Patricia Arquette), after which he inexplicably changes into a young mechanic and begins leading a new life. The movie, which has noir elements, features the last film appearances of Robert Blake, Jack Nance, and Richard Pryor, and the acting debut of Marilyn Manson.
+                </p>
+                <a href="https://www.youtube.com/watch?v=1nKjO9QCSic" target="_blank">View trailer.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="nextWraper">
+          <h4 id="next" class="btn">Next...</h4>
+        </div>
+        </div>
+        
+        <div class="close">x</div>
+      </div>
+    </section>
+
+    <section id="quizSection">
+      <div class="container">
+        <h1 class="subtitle" id="quizTitle">QUIZ</h1>
+        <p class="subtitle" id="quizBody">Coming soon... </p>
+        <div class="close">x</div>
+      </div>
+    </section>
+
+  
+    <footer>
+      <div id="footerIcons" class="pull-left">
+        <!-- facebook icon -->
+        <a href="https://www.facebook.com/davidlynchofficial" target="_blank" title="Facebook">
+          <img src="images/facebookIcon.png" class="contactIcons">
+        </a>
+        <!-- twitter icon -->
+        <a href="https://twitter.com/DAVID_LYNCH" target="_blank" title="Twitter">
+          <img src="images/twitterIcon.png" class="contactIcons">
+        </a>
+      </div>
+      <div id="footerText">More info about Lynch in
+      <br /> <a class="footerTextLinks" href="https://en.wikipedia.org/wiki/David_Lynch" target="_blank" title="Wikipedia"><strong>Wikipedia</strong></a> and 
+      <a class="footerTextLinks" href="http://www.imdb.com/name/nm0000186/" target="_blank" title="IMDb"  ><strong>IMDb</strong></a>
+      </div>
+    </footer>
+    
+    <!-- jQuery-->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    
+    <!-- my js file-->
+    <script src="main.js" type="text/javascript" charset="utf-8"></script>
+
+    <!-- bootstrap js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
