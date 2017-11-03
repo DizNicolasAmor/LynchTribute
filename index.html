@@ -24,8 +24,6 @@ Be free to use it and change it.
     <!--my css file-->
     <link rel="stylesheet" href="style.css">
     
-    <!-- font-awesome -->
-    <link rel="stylesheet" href="css/font-awesome.min.css"/>
   </head>
 
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -140,7 +138,23 @@ Be free to use it and change it.
     <section id="quizSection">
       <div class="container">
         <h1 class="subtitle" id="quizTitle">QUIZ</h1>
-        <p class="subtitle" id="quizBody">Coming soon... </p>
+        <div id="quizBody">
+          <h3 id="question"></h3>
+            <div class="radio">
+              <label id="option1"></label>
+            </div>
+            <div class="radio">
+              <label id="option2"></label>
+            </div>
+            <div class="radio">
+              <label id="option3"></label>
+            </div>
+            <div class="radio">
+              <label id="option4"></label>
+            </div>
+            <div id="quizResult"></div>
+            <button id="submit" class="btn btn-primary center-block">Submit</button>
+        </div>
         <div class="close">x</div>
       </div>
     </section>

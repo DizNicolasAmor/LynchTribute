@@ -77,24 +77,7 @@ footer{
   line-height: 1.2;
 }
 
-#animatedText:after{
-  display: inline-block;
-  height: 2vw;
-  width: 3px;
-  background: white;
-  content: '';
-  position: relative;
-  top: 5px;
-  -webkit-animation: blink .8s infinite;
-  animation: blink .8s infinite;
-}
-@-webkit-keyframes blink{
-  from{ opacity: 0;}
-  to{opacity: 1}
-}
 
-
-/***   MODAL SCREENS   ***/
 #biographySection, #bestMoviesSection, #quizSection{
   display: none;
   text-align: justify;
@@ -133,22 +116,16 @@ h3{
   margin-top: 0;
 }
 
-#quizBody{
-  font-size: 3vw !important;
-  color: DarkSlateGray !important;
+#quizBody label{
+  margin-left: 20%;
 }
-#quizBody:after{
-  display: inline-block;
-  height: 3vw;
-  width: 2px;
-  background: DarkSlateGray;
-  content: '';
-  position: relative;
-  top: 7px;
-  -webkit-animation: blink .8s infinite;
-  animation: blink .8s infinite;
-  }
 
+#submit{
+  background-color: Black;
+}
+#submit:hover{
+  background-color: grey;
+}
 
 .sliderContainer{
   text-align: center;
